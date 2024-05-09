@@ -8,7 +8,7 @@ document.getElementById('airportForm').addEventListener('submit', function(event
         "SLC": {
             name: "Salt Lake City",
             SID: "ZIMMR3",
-            RNAV: "ALL: MUGBE"
+            RNAV: "<strong>ALL:</strong> MUGBE"
         },
 
         "PHX": {
