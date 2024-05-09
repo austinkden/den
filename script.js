@@ -14,7 +14,7 @@ document.getElementById('airportForm').addEventListener('submit', function(event
         "PHX": {
             name: "Phoenix",
             SID: "SMMUR2",
-            RNAV: "8: KIDNG  -  25: BRKEM  -  17L: RAYDR  -  17R/16L/16R: BOEGI"
+            RNAV: "<strong>8:</strong> KIDNG  -  <strong>25:</strong> BRKEM  -  <strong>17L:</strong> RAYDR  -  <strong>17R/16L/16R:</strong> BOEGI"
         },
     };
 
