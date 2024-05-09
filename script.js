@@ -21,9 +21,9 @@ document.getElementById('airportForm').addEventListener('submit', function(event
     if (routes[airportCode]) {
         const route = routes[airportCode];
         resultDiv.innerHTML = `
-            ${route.name}  -  
-            ${route.SID}  -  
-            ${route.RNAV} 
+            ${route.RNAV}<br>
+            ${route.SID}<br>
+            ${route.name} 
         `;
     } else {
         resultDiv.innerHTML = 'No information available for this airport code.';
